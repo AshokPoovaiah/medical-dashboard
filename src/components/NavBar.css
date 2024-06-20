@@ -1,0 +1,38 @@
+/* NavBar.css */
+
+.nav-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 60px; /* height of header */
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-bar ul li {
+    margin-right: 20px;
+  }
+  
+  .nav-bar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-bar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .toggle-container {
+    margin-left: auto;
+  }
+  

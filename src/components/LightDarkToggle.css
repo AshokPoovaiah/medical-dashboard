@@ -1,0 +1,12 @@
+/* LightDarkToggle.css */
+
+.toggle-container {
+    text-align: right;
+    margin-bottom: 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  

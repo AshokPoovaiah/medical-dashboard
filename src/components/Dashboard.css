@@ -1,0 +1,45 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .charts-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .chart-section {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .table-section {
+    margin: 20px;
+    overflow-x: auto;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .table-container table {
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .table-container th,
+  .dark-mode .table-container td {
+    border-color: #555;
+  }
+  
+  .dark-mode .chart-container {
+    color: #f1f1f1;
+  }
+  
+  .dark-mode button {
+    background-color: #555;
+    color: #f1f1f1;
+  }
+  
